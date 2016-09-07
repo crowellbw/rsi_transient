@@ -8,14 +8,12 @@
 %/pub/timeseries/measures/ats/WesternNorthAmerica
 %generally use filtered, residual, combination
 %2: Unpack tar file and place files in data
-%3: Create station region files.  form is station, lat, lon.  See example
-%stations_vancouver.txt
+%3: Create station file
 %4: Run rsi.m
 %5: Output will be individual station files in folder results and a
-%combined file rsi_region.txt which has threshold exceedances
 %Individual station files are output as follows:
 %time,year,day,north(mm),east(mm),up(mm),north rsi, east rsi, up rsi,
-%north average rsi, east average rsi, up average rsi
+%north prob, east prob, up prob
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %Variables
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
