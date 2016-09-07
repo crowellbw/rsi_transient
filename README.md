@@ -40,6 +40,8 @@ remodeler.m - this takes the information in the 'rawresults' folder and computes
 site, lat, lon, north velocity (mm/yr), east velocity (mm/yr), up velocity (mm/yr)
 
 kurtsolver.m - this is used internally to perform the kurtosis minimization problem
+
 leapyear.m - determines if the year is a leap year
+
 centralmovavg.m - performs the central moving average on the RSI values
 
