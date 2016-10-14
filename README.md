@@ -45,3 +45,5 @@ leapyear.m - determines if the year is a leap year
 
 centralmovavg.m - performs the central moving average on the RSI values
 
+heaviside2.m - a specific version of the Heaviside step function
+
