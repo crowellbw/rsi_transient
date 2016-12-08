@@ -2,9 +2,9 @@
 
 This is a MATLAB package to search for transient detections in GPS time series using the Relative Strength Index (RSI). An overview of the methodology is provided in:
 
-Crowell, B.W., Y. Bock, and Z. Liu (201?), Single-station automated detection of transient deformation in GPS time series with the relative strength index: A case study of Cascadian slow-slip, Journal of Geophysical Research.
+Crowell, B.W., Y. Bock, and Z. Liu (2016), Single-station automated detection of transient deformation in GPS time series with the relative strength index: A case study of Cascadian slow-slip, J. Geophys. Res., 121, doi: 10.1002/2016JB013542.
 
-In order to run this package, you will need MATLAB's Financial Toolbox, specifically rsindex.m (http://www.mathworks.com/help/finance/rsindex.html). The code would not be difficult to reproduce given the methodology outlined in Crowell et al. [201?]
+In order to run this package, you will need MATLAB's Financial Toolbox, specifically rsindex.m (http://www.mathworks.com/help/finance/rsindex.html). The code would not be difficult to reproduce given the methodology outlined in Crowell et al. [2016]
 
 To run the package, simply download all the files into a folder and create three folders within, 'rawresults', 'detectionresults' and 'data'.
 
@@ -16,9 +16,9 @@ trend - either 'Detrend', 'Resid', 'Strain', or 'Trend'. 'Detrend' is simply rem
 
 source - either 'sopac', 'jpl', or 'comb'. 'sopac' is the time series processed by the Scripps Orbit and Permanent Array Center. 'jpl' is the time series processed by the Jet Propulsion Laboratory. 'comb' is a combination solution of the two processing centers.
 
-In Crowell et al. [201?], we use the Filter, Resid, comb time series. Simply unpack the tarball into the 'data' folder to begin. If you use different formats, you will have to modify the first few lines of rsi.m after 'Compute Values'. After this initial import, the program uses its own format.
+In Crowell et al. [2016], we use the Filter, Resid, comb time series. Simply unpack the tarball into the 'data' folder to begin. If you use different formats, you will have to modify the first few lines of rsi.m after 'Compute Values'. After this initial import, the program uses its own format.
 
-The main file is rsi.m. Within here, you will need to change the variables in the 'variables' section, which specify the time range and the type of time series files to be looked at (treatment and trend). You will also need a 'stations.txt' file; I have provided an example used for Crowell et al. [201?]. The format is extended psvelo format.
+The main file is rsi.m. Within here, you will need to change the variables in the 'variables' section, which specify the time range and the type of time series files to be looked at (treatment and trend). You will also need a 'stations.txt' file; I have provided an example used for Crowell et al. [2016]. The format is extended psvelo format.
 
 After setting up the data, subdirectories, and the stations.txt file, simply run 'rsi' in a MATLAB command window. 
 
