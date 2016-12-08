@@ -8,7 +8,7 @@ In order to run this package, you will need MATLAB's Financial Toolbox, specific
 
 To run the package, simply download all the files into a folder and create three folders within, 'rawresults', 'detectionresults' and 'data'.
 
-The system is setup to run on time series files provided by SOPAC. A link to weekly tarballs is here (ftp://garner.ucsd.edu/archive/garner/timeseries/measures/ats/WesternNorthAmerica/). Within the ftp, you will notice a series of different time series products, which can be generalized into WNAM_'treatment'_'trend'NEUTimeSeries_'source'_date.tar. The three variables are:
+The system is setup to run on time series files provided by SOPAC. A link to weekly tarballs is here (ftp://garner.ucsd.edu/archive/garner/timeseries/measures/ats/WesternNorthAmerica/). Within the ftp, you will notice a series of different time series products, which can be generalized into WNAM_ 'treatment _ 'trend' NEUTimeSeries_ 'source' _date.tar. The three variables are:
 
 treatment - either 'Clean', 'Filter', or 'Raw'. 'Clean' is removing non-tectonic jumps and outliers. 'Filter' is regionally filtered. 'Raw' is the raw positions that come out of the GPS positioning code.
 
